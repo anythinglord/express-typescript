@@ -3,11 +3,11 @@ import express from 'express' // ESModules
 const router = express.Router()
 
 router.get('/', (_req, res) => {
-    res.send('Fetching')
+  res.send('Fetching')
 })
 
 router.post('/', (_req, res) => {
-    res.send('Saving')
+  res.send('Saving')
 })
 
 export default router
